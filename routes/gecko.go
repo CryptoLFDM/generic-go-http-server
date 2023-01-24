@@ -2,8 +2,8 @@ package routes
 
 import (
 	"encoding/json"
+	"generic-http-server/thirdapp"
 	"github.com/gin-gonic/gin"
-	"hopers-backend/thirdapp"
 )
 
 // @BasePath /api

@@ -3,6 +3,6 @@
 .idea
 
 2miners-monitoring
-hopers-backend
-.hopers-backend.lock
+generic-http-server
+.generic-http-server.lock
 token

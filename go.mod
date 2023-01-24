@@ -1,4 +1,4 @@
-module hopers-backend
+module generic-http-server
 
 go 1.19
 

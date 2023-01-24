@@ -1,12 +1,12 @@
 package main
 
 import (
+	"generic-http-server/cli"
+	"generic-http-server/config"
+	"generic-http-server/db"
+	"generic-http-server/engine"
+	"generic-http-server/server"
 	"github.com/go-co-op/gocron"
-	"hopers-backend/cli"
-	"hopers-backend/config"
-	"hopers-backend/db"
-	"hopers-backend/engine"
-	"hopers-backend/server"
 	"time"
 )
 

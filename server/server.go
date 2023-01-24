@@ -2,12 +2,12 @@ package server
 
 import (
 	"fmt"
+	"generic-http-server/config"
+	"generic-http-server/docs"
+	"generic-http-server/routes"
 	"github.com/gin-gonic/gin"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	"hopers-backend/config"
-	"hopers-backend/docs"
-	"hopers-backend/routes"
 	"log"
 	"time"
 )

@@ -2,8 +2,8 @@ package redis
 
 import (
 	"fmt"
+	"generic-http-server/config"
 	"github.com/go-redis/redis"
-	"hopers-backend/config"
 	"log"
 	"time"
 )

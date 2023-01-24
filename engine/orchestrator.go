@@ -2,8 +2,8 @@ package engine
 
 import (
 	"fmt"
-	"hopers-backend/config"
-	"hopers-backend/utils"
+	"generic-http-server/config"
+	"generic-http-server/utils"
 	"net/http"
 )
 

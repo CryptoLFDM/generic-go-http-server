@@ -2,8 +2,8 @@ package routes
 
 import (
 	"encoding/json"
+	"generic-http-server/data"
 	"github.com/gin-gonic/gin"
-	"hopers-backend/data"
 	"time"
 )
 
@@ -21,7 +21,7 @@ import (
 func Health(c *gin.Context) {
 	Health := data.Health{}
 	Health.Timestamp = time.Now().Format(time.RFC3339)
-	Health.Status = "In hopers-backend We Trust"
+	Health.Status = "In generic-http-server We Trust"
 	HealthJson, _ := json.Marshal(Health)
 	c.String(200, string(HealthJson))
 }

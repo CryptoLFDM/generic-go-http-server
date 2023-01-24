@@ -1,0 +1,8 @@
+/config/config.yml
+/config/adress.yml
+.idea
+
+2miners-monitoring
+hopers-backend
+.hopers-backend.lock
+token

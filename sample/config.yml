@@ -1,0 +1,13 @@
+---
+log_level: INFO # CRITICAL => ERROR => WARNING => INFO => DEBUG
+ca_path: ssl/chain.pem
+
+api_adress: http://localhost
+api_port: 8080            # run the api on the port given in api_port
+
+redis_host: 
+redis_password: 
+redis_port: 
+redis_long_lifetime: 180
+redis_mid_lifetime: 60
+redis_short_lifetime: 2
